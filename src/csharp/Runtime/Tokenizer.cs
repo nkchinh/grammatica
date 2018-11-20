@@ -12,14 +12,14 @@
  * Copyright (c) 2003-2015 Per Cederberg. All rights reserved.
  */
 
+using PerCederberg.Grammatica.Runtime.RE;
 using System;
-using System.Collections;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using PerCederberg.Grammatica.Runtime.RE;
 
-namespace PerCederberg.Grammatica.Runtime {
+namespace PerCederberg.Grammatica.Runtime
+{
 
     /**
      * A character stream tokenizer. This class groups the characters read

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A772E105-C6BA-45AA-A7E6-96517DF173F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grammatica", "src\csharp\Grammatica.csproj", "{89F173C9-5B6B-48C5-A92B-05AE3E3835CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E16DF03E-E149-4E2E-B1A2-9A922E66924E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89F173C9-5B6B-48C5-A92B-05AE3E3835CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F173C9-5B6B-48C5-A92B-05AE3E3835CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F173C9-5B6B-48C5-A92B-05AE3E3835CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F173C9-5B6B-48C5-A92B-05AE3E3835CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89F173C9-5B6B-48C5-A92B-05AE3E3835CA} = {A772E105-C6BA-45AA-A7E6-96517DF173F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E67E440-D9C8-4CC7-89C4-F71825F96432}
+	EndGlobalSection
+EndGlobal
